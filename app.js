@@ -6,7 +6,7 @@ let express = require('express')
   , nib = require('nib')
 
 
-let app = express()
+let app = express();
 
 function compile(str, path) {
   return stylus(str)
